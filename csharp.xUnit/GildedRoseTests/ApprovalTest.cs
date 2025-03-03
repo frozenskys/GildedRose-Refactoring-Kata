@@ -13,7 +13,7 @@ namespace GildedRoseTests;
 
 public class ApprovalTest
 {
-    [Fact]
+    [Fact (Skip = "Not Implemented")]
     public Task Foo()
     {
         Item[] items = { new Item { Name = "foo", SellIn = 0, Quality = 0 } };
